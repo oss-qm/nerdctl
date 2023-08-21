@@ -1,0 +1,13 @@
+Source: nerdctl
+Section: unknown
+Priority: optional
+Maintainer: Enrico Weigelt <info@metux.net>
+Build-Depends: debhelper (>=11~), golang-any (>=1.20)
+Standards-Version: 4.1.4
+
+Package: nerdctl
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: contaiNERD CTL - Docker-compatible CLI for containerd,
+ with support for Compose, Rootless, eStargz, OCIcrypt, IPFS, ...
